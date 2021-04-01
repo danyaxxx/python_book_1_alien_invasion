@@ -3,9 +3,9 @@ from pygame.sprite import Sprite
 
 class Bullet(Sprite):
     """Класс для управления снарядами, выпущенными кораблем."""
-    def __init__(self. ai_game):
+    def __init__(self, ai_game):
         """Создает объект снарядов в текущей позиции корабля."""
-        super().__init()
+        super().__init__()
         self.screen = ai_game.screen
         self.settings = ai_game.settings
         self.color = self.settings.bullet_color
